@@ -2,8 +2,8 @@
 
 # Take user input
 echo "Please enter in two numbers : "
-read a
-read b
+read 1
+read 2
 
 # Input type of operation
 
@@ -19,10 +19,10 @@ read ch
 # Swtich Case to perform
 # calculator operations
 case $ch in
-1)res=`echo $(($a + $b))`;;
-2)res=`echo $(($a - $b))`;;
-3)res=`echo $(($a * $b))`;;
-4)res=`echo $(($a / $b))`;;
+1)res=`echo $(($1 + $2))`;;
+2)res=`echo $(($1 - $2))`;;
+3)res=`echo $(($1 * $2))`;;
+4)res=`echo $(($1 / $2))`;;
 esac
 
 echo "Result : $res"

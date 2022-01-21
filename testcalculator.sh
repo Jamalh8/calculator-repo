@@ -18,3 +18,4 @@ for num1 in ${num1s[@]}; do
     fi
   done
 done
+

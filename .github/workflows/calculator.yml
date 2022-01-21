@@ -29,4 +29,4 @@ jobs:
       - name: calculator.sh
         run: |
            sudo chmod +x calculator.sh
-	   ./calculator.sh "1""2"
+	   ./calculator.sh "Calculator"

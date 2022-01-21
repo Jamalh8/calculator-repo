@@ -28,6 +28,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: calculator.sh
         run: |
-sudo chmd +x calculator.sh
-./calculator.sh 5 5 1
+       sudo chmd +x calculator.sh
+       ./calculator.sh 5 5 1
 	   

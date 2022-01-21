@@ -1,4 +1,4 @@
-#Section 1
+# Calculator repo
 This is a repo to do my caluclator testing
-#Section 2
+## More info 
 Adding more line to try make it more professtional

@@ -28,5 +28,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: testcalculator.sh
         run: | 
-	   sudo chmod +x testcalculator.sh
-	   /testcalculator.sh
+	  sudo chmd +x calculator.sh
+          ./calculator.sh
+	   

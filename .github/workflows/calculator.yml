@@ -29,5 +29,5 @@ jobs:
       - name: calculator.sh
         run: | 
 	      sudo chmd +x calculator.sh
-	      ./calculator.sh
+	      ./calculator.sh 5 5 1
 	   
